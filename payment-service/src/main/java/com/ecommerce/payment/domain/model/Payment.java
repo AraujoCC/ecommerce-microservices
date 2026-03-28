@@ -12,7 +12,7 @@ public class Payment {
     private final BigDecimal amount;
     private PaymentStatus status;
     private String failureReason;
-    private final Instant createdAt;
+    private Instant createdAt;
     private Instant processedAt;
 
     private Payment(UUID id, UUID orderId, UUID customerId, BigDecimal amount) {
