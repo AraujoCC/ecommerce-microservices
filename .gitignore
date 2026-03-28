@@ -1,0 +1,21 @@
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.iml
+*.log
+*.h2.db
+
+# IDEs
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# Docker
+docker-compose.override.yml
+
+# OS
+.DS_Store
+Thumbs.db
