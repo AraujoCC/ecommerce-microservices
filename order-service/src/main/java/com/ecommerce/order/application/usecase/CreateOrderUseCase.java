@@ -26,8 +26,8 @@ public class CreateOrderUseCase {
         OrderCreatedEvent event = new OrderCreatedEvent(
                 savedOrder.getId(),
                 savedOrder.getCustomerId(),
-                savedOrder.getTotalAmount()
-        );
+                savedOrder.getTotalAmount(),
+                savedOrder.getItems());
 
         eventPublisher.publish(event);
 
